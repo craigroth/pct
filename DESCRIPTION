@@ -9,5 +9,3 @@ Description: Converts a number to a percentage as a character string with the nu
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports: 
-    miceadds::round2()

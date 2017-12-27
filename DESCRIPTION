@@ -2,10 +2,12 @@ Package: pct
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
+Author: Craig Rothenberg
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Converts a number to a percentage as a character string with the number of decimals as specified.
+    Note - this uses round2() from miceadds, rather than the base R round() function.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    miceadds::round2
